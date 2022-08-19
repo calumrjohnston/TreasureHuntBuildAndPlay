@@ -1,0 +1,108 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 2,
+    "identityHash": "499aa1dd25a8715b9df0e739ad55995b",
+    "entities": [
+      {
+        "tableName": "Img",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`parentId` INTEGER, `image_Storage` BLOB NOT NULL, `cId` INTEGER PRIMARY KEY AUTOINCREMENT)",
+        "fields": [
+          {
+            "fieldPath": "parentId",
+            "columnName": "parentId",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "imageStorage",
+            "columnName": "image_Storage",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "cId",
+            "columnName": "cId",
+            "affinity": "INTEGER",
+            "notNull": false
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "cId"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      },
+      {
+        "tableName": "Hunt",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`huntId` INTEGER PRIMARY KEY AUTOINCREMENT, `title` TEXT NOT NULL, `victory` TEXT NOT NULL, `names` TEXT NOT NULL, `hints` TEXT NOT NULL, `infos` TEXT NOT NULL, `lats` TEXT NOT NULL, `longs` TEXT NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "huntId",
+            "columnName": "huntId",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "victory",
+            "columnName": "victory",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "names",
+            "columnName": "names",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hints",
+            "columnName": "hints",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "infos",
+            "columnName": "infos",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lats",
+            "columnName": "lats",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "longs",
+            "columnName": "longs",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "huntId"
+          ],
+          "autoGenerate": true
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '499aa1dd25a8715b9df0e739ad55995b')"
+    ]
+  }
+}

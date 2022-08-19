@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:padding="7dp"
+android:id="@+id/list_comment_item_data"
+    >
+
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="7dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/usernamePop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#DFDFDF"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/commentPop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#DFDFDF"
+        android:textSize="15dp" />
+
+
+</LinearLayout>
+</LinearLayout>

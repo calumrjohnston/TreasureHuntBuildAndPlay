@@ -1,0 +1,15 @@
+Library; 51.617963,-3.877329; What building has the most stories?; A building containing collections of books, periodicals, films and recorded music for use or borrowing by members of the university-
+Great Hall; 51.618476,-3.878384; I'm done to boats, to cargo, to loads. When indoors I'm, in a way, a narrow road. What am I?; Large building used for events, also there's food here-
+Beach; 51.616871,-3.877323;  I've sand for feet, you sometimes sit with me in the heat; A sandy shore-
+Tesco; 51.618603,-3.879853; Deli meat, to cook or ready to eat, toiletries, paste for your teeth and soap for your knees; A local shop on campus to purchase supplies-
+Santander; 51.618529,-3.880250; When in a hurry, come here to withdraw your money; A bank on campus-
+Tower; 51.618749,-3.879092; I go way up high into the sky, look at my face and tell the time; The tower, on the bottom there is a security office-
+Lounge; 51.618846,-3.879859; This 6 letter word becomes long when the 'u' and 'e' are removed; A common area to chill out-
+Student Union; 51.618986,-3.881018; Come here when in need of help, For anything personal or mental health; Place where you can speak to comeone or get advice-
+Uni Gym; 51.618786,-3.881855; We've got treadmills where you can run, lift so much that you can carry a tonne; Place where you can work out membership is £25.99-
+Tafarn Tawe; 51.618496,-3.880507; Hot chips and cold beers, Pool tables and sports here; An cafe with entertainment facilities-
+Food Court; 51.618433,-3.881108; Here you have a choice of deal for hot meals, chilli con carne to biryani; Large hall with different food vendors to choose from-
+Bus Stop; 51.619152,-3.879161; Wait here to be transported into town, or anywhere around; Designated stop where buses which take you into town will stop-
+CoFo; 51.619076,-3.878421; I only opened 2 years ago, In here computer scientists are taught what they know; Building where the majority of lectures for CS take place-
+Courts; 51.617547,-3.879183; Tennis games here and fun, Football games and run; Hoops and court area to play ball games-
+Engineering Block; 51.618603,-3.877960; Here is where engineers are created, STEM student are also educated; The building where STEM students are taught-

@@ -1,0 +1,46 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "d4547b6ff23c0a6cc57b8a336fcec71e",
+    "entities": [
+      {
+        "tableName": "img",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`parentId` TEXT NOT NULL, `imageStorage` BLOB NOT NULL, `imgId` TEXT NOT NULL, PRIMARY KEY(`imgId`))",
+        "fields": [
+          {
+            "fieldPath": "parentId",
+            "columnName": "parentId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imageStorage",
+            "columnName": "imageStorage",
+            "affinity": "BLOB",
+            "notNull": true
+          },
+          {
+            "fieldPath": "imgId",
+            "columnName": "imgId",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "imgId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'd4547b6ff23c0a6cc57b8a336fcec71e')"
+    ]
+  }
+}

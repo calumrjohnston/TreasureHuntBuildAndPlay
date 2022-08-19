@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DissAp</string>
+
+
+    <!-- Login Titles -->
+    <string name="log_db">AppDB</string>
+    <string name="log_app">App</string>
+
+    <!-- Login Messages-->
+    <string name="log_login_sucessc">Login Successful!</string>
+    <string name="log_login_attempt">Attempting Login!</string>
+    <string name="log_user_created">User Created!</string>
+
+    <!--Toast Messages-->
+    <string name="toast_login_successful">Login Successful!</string>
+    <string name="toast_login_unsuccessful">Login Unsuccessful!</string>
+    <string name="toast_missing_fields">Missing required fields!</string>
+    <string name="toast_turn_on_location">Turn on location!</string>
+    <string name="toast_treasure_found">Treasure Found!</string>
+
+    <!--Register Messages-->
+    <string name="user_created">User created</string>
+
+    <!--Hunt Creation Messages-->
+    <string name="hunt_created">Hunt created</string>
+    <string name="title_activity_game">Map</string>
+    <string name="comment_posted">Comment Posted</string>
+    <string name="title_activity_fgdgd">Map</string>
+    <string name="comment_not_posted">Enter Comment Text!</string>
+
+
+</resources>

@@ -1,0 +1,76 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "c21f4a601d7b62cd15136486aae491c7",
+    "entities": [
+      {
+        "tableName": "hunt",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`hId` TEXT NOT NULL, `title` TEXT NOT NULL, `victory` TEXT NOT NULL, `names` TEXT NOT NULL, `hints` TEXT NOT NULL, `infos` TEXT NOT NULL, `lats` TEXT NOT NULL, `longs` TEXT NOT NULL, PRIMARY KEY(`hId`))",
+        "fields": [
+          {
+            "fieldPath": "hId",
+            "columnName": "hId",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "victory",
+            "columnName": "victory",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "names",
+            "columnName": "names",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "hints",
+            "columnName": "hints",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "infos",
+            "columnName": "infos",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "lats",
+            "columnName": "lats",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "longs",
+            "columnName": "longs",
+            "affinity": "TEXT",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "columnNames": [
+            "hId"
+          ],
+          "autoGenerate": false
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'c21f4a601d7b62cd15136486aae491c7')"
+    ]
+  }
+}
